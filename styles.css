@@ -292,12 +292,13 @@ body{
    }
 
     .nav-link{
-      font-size: 12px;
+      font-size: 14px;
+        margin-right: -9;
     }
     #navbar{
       display: flex;
       justify-content: center;
-        gap: 8px;
+        gap: 18px;
   }
        .logo{
     width: 50px;
