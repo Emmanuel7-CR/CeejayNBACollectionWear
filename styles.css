@@ -308,6 +308,9 @@ body{
     position: relative;
     right: 20px;
     }
+        #home{
+       height: 100vh;
+     }
   
   .welcome{
     padding-top: 150px;
@@ -324,7 +327,7 @@ body{
 }
 
 .Collections{
-  padding-top: 40px;
+  padding-top: 70px;
  text-align: center;
 
 }
