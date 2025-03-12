@@ -275,10 +275,10 @@ body{
 
    @media screen and  (min-width: 320px) and (max-width: 480px)  {
        html{
-           overflow: hidden;
+           overflow-x: hidden;
        }
     body{
-      overflow: hidden;
+      overflow-x: hidden;
     }
        .head{
       background-color: #A1C9F2;
