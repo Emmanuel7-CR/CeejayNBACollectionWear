@@ -13,7 +13,7 @@ body{
       position: fixed;
       top: 0;
       width: 100%;
-    
+     z-index: 1;
  }
 
 
@@ -26,6 +26,8 @@ body{
  }
  .nav-link:hover{
     color: #B2FFFC;
+     transform: translateY(-5px);
+  transition: transform 0.2s ease;
  }
  
  .logo{
@@ -47,6 +49,37 @@ body{
       /* background-color: #B2FFFC; */
       
     }
+.text-item {
+        opacity: 0;
+        animation: animate-text 2s ease-in forwards;
+      }
+      
+      .text-item:nth-child(1) {
+        animation-delay: 0s;
+      }
+      
+      .text-item:nth-child(2) {
+        animation-delay: 0.5s;
+      }
+      
+      .text-item:nth-child(3) {
+        animation-delay: 1s;
+      }
+      
+      .text-item:nth-child(4) {
+        animation-delay: 1.5s;
+      }
+      
+      @keyframes animate-text {
+        0% {
+          opacity: 0;
+          transform: translateY(100px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
     
 
     .welcome{
